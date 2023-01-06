@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   
+<style>
+        *,
+*:before,
+*:after {
+  box-sizing: border-box;
+  
+}
+
+.frontpage {
+   
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 32px;
+  border: 1px solid transparent;
+  border-top: 1px solid #DADCE0;
+  border-bottom: 1px solid #DADCE0;
+  overflow: hidden;
+}
+
+.frontpage:before, 
+.frontpage:after {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  content: '';
+  width: calc(33.3% - 4px);
+}
+
+.frontpage:before {
+  
+  left: 0;
+  border-right: 1px solid #DADCE0;
+}
+
+.frontpage:after {
+  right: 0;
+  border-left: 1px solid #DADCE0;
+}
+
+.fp-cell {
+    
+  position: relative;
+  z-index: 2;
+  padding: 16px 0;
+  background-color: rgb(255, 255, 255);
+}
+
+.fp-cell--border-top:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -16px;
+  right: -16px;
+  border-top: 1px solid #DADCE0;
+}
+
+.fp-cell--1 {
+   
+  grid-row: 1 / span 2;
+}
+
+.fp-cell--2 {
+  grid-column: 2 / span 2;
+}
+
+.fp-cell--3 {
+  grid-column: 2;
+  
+}
+
+.fp-item {
+  background-color: #f8f0f0;
+  
+ 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 200px;
+  height: 100%;
+}
+.navbars {
+    margin-right: 10px;
+  
+}
+nav ul li {
+    display: inline-block;
+   justify-content: left;
+}
+nav ul li a{
+    
+    margin: 60px;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+}
+p{
+   text-transform: capitalize;
+   
+}
+p{
+    line-height: 1.3;
+}
+    </style>
+</head>
+<body>
+    <nav class="navbars">
+      
+        <ul>
+            <li><a href="/index.html" >HOME</a></li>
+            <li><a href="/NEWS.HTML">NEWS</a></li>
+            <li><a href="/podcast.html">PODCAST</a></li>
+             <li><a href="/contact.html">CONTACT  US</a></li>
+            <li><a href="/About.html">ABOUT</a></li>
+        </ul>
+    </nav>
+    
+    <div class="frontpage">
+        <div class="fp-cell fp-cell--1">
+            <div class="fp-item">
+               <img src="/IMAGES/TECK.jpg" alt="" width="300px" height="250px">
+            </div>
+        </div>
+        <div class="fp-cell fp-cell--2">
+            <div class="fp-item"><p>2 minute readDecember 15, 20227:54 PM GMT+3Last Updated 5 days ago
+                Turkey's Baykar launches new jet-powered drone, aiming for air-to-air combat
+                By Omer Berberoglu
+                Turkey's Baykar launches new jet-powered drone, aiming for air-to-air combat
+                
+                [1/5] Kizilelma (Red Apple), Turkish defence firm Baykar's first jet-powered unmanned aerial combat vehicle (UCAV), flies over Corlu near Istanbul, Turkey December 14, 2022. Baykar Technologies/Handout via REUTER
+                
+                
+                ISTANBUL, Dec 15 (Reuters) - Turkish defence firm Baykar said its first jet-powered unmanned aerial combat vehicle (UCAV) completed its maiden flight on Wednesday, as the company continues to gain popularity globally, most recently by helping Ukraine's army fight Russian forces.
+                
+                Baykar released a video showing the Kizilelma (Golden Apple) UCAV taking off and then returning to an airbase which it said was in the northwestern Corlu province, 85 kilometers west of Istanbul.</p></div>
+        </div>
+        <div class="fp-cell fp-cell--3 fp-cell--border-top">
+            <div class="fp-item"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure quis aliquam quidem maiores sequi et velit iste facilis provident temporibus impedit consectetur similique ipsam consequatur odit quo vitae illo, deleniti aperiam eligendi? Assumenda debitis facere voluptates! Officia ad quod fugiat nulla iure quasi culpa animi illum sequi dolor. Nesciunt, autem.</p></div>
+        </div>
+        <div class="fp-cell fp-cell--4 fp-cell--border-top">
+            <div class="fp-item"><a href="/NEWS.HTML"><img src="/IMAGES/drone-turco-Bayraktar-KIZILELMA-2.webp" alt="" width="300px" height="200px"></a></div>
+        </div>
+    </div>  
+ 
+
+</body>
+</html>

@@ -1,0 +1,495 @@
+/** this is for home page**/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+    
+}
+.hero{
+    width: 100%;
+    height: 100vh;
+   
+  
+   position: relative;
+   padding: 0 5%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+nav{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 20px 8%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 40px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    margin: 30px;
+    border: 1px;
+    border-radius: 5px;
+}
+nav ul li a:hover
+{
+    background-color: rgb(191, 111, 198);
+}
+.content{
+    text-align: center;
+}
+.content h1{
+    font-size: 160px;
+    color: #fff;
+    font-weight: 600;
+    transition: 0.5s;
+}
+.content h1:hover{
+    -webkit-text-stroke: 2px #fff;
+      color: transparent;
+}
+
+
+.content a{
+    text-decoration: none;
+    display: inline-block;
+    color: #fff;
+    font-size: 24px;
+    border: 2px solid #fff;
+    padding: 14px 70px;
+    border-radius: 50px;
+    margin-top: 60px;
+}
+.content a:hover{
+    background-color: rgb(116, 184, 205);
+    
+
+}
+
+.back-video{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+@media (min-aspect-ratio: 16/9){
+    .back-video{
+        width: 100%;
+        height: auto;
+    }
+}
+@media (max-aspect-ratio: 16/9){
+    .back-video{
+        width: auto;
+        height: 100%;
+    }
+}
+
+
+/*** this for news ***/
+.section{
+    
+    width: 70%;
+    margin: 75px;
+    margin: 0 auto;
+   margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr) );
+    grid-gap:25px;
+}
+.NEWS{
+    text-align: center;
+    margin-top: 60px;
+    font-size: 60PX;
+    color: white;
+    text-decoration:none;
+}
+.card{
+    background-color: rgb(0, 0, 0);
+    box-shadow: 0px 4px 8px 0px rgb(0,0,0,);
+   
+}
+.image-section{
+    min-height: 160px;
+}
+.card .img-ones{
+    background-image: url(/IMAGES/1cHzCksf_400x400.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.card .img-two{
+    background-image: url(/IMAGES/BUSINESS.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.card .img-three{
+    background-image: url(/IMAGES/pexels-uncoveredlens-eze-joshua-3620411.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+.card .img-three{
+    background-image: url(/IMAGES/3508837-71523908-2560-1440.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;}
+.card .img-four{
+        background-image: url(/IMAGES/TECK.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;}
+        .card .img-five{
+            background-image: url(/IMAGES/po.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;}
+ .card .img-six{
+background-image: url(/IMAGES/clu3.jpg);
+  background-repeat: no-repeat;
+ background-size: cover;
+ background-position: center;}.card .img-seven{
+   background-image: url(/IMAGES/econ.jpg);
+  background-repeat: no-repeat;
+    background-size: cover;
+ background-position: center;}
+ .card .img-eight{
+    background-image: url(/IMAGES/he4.jpg);
+      background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center;}.card .img-seven{
+       background-image: url(/IMAGES/econ.jpg);
+      background-repeat: no-repeat;
+        background-size: cover;
+     background-position: center;}
+     .card .img-nine{
+        background-image: url(/IMAGES/an4.jpg);
+          background-repeat: no-repeat;
+         background-size: cover;
+         background-position: center;}.card .img-seven{
+           background-image: url(/IMAGES/econ.jpg);
+          background-repeat: no-repeat;
+            background-size: cover;
+         background-position: center;} 
+         .card .img-ten{
+            background-image: url(/IMAGES/t4.jpg);
+              background-repeat: no-repeat;
+             background-size: cover;
+             background-position: center;}.card .img-seven{
+               background-image: url(/IMAGES/econ.jpg);
+              background-repeat: no-repeat;
+                background-size: cover;
+             background-position: center;} 
+             .card .img-eleven{
+                background-image: url(/IMAGES/L.jpg);
+                  background-repeat: no-repeat;
+                 background-size: cover;
+                 background-position: center;}
+                 .card .img-TT{
+                   background-image: url(/IMAGES/cor.jpg);
+                  background-repeat: no-repeat;
+                    background-size: cover;
+                 background-position: center;} 
+                 .card .img-oneTEN{
+                    background-image: url(/IMAGES/imageu.jpg);
+                      background-repeat: no-repeat;
+                     background-size: cover;
+                     background-position: center;}
+                     .card .img-twot{
+                       background-image: url(/IMAGES/EDU.jpg);
+                      background-repeat: no-repeat;
+                        background-size: cover;
+                     background-position: center;} 
+                     .card .img-onetu{
+                        background-image: url(/IMAGES/tr2.jpg);
+                          background-repeat: no-repeat;
+                         background-size: cover;
+                         background-position: center;}
+                         .card .img-onesom{
+                           background-image: url(/IMAGES/soml.jpg);
+                          background-repeat: no-repeat;
+                            background-size: cover;
+                         background-position: center;} 
+                         .card .img-onew{
+                            background-image: url(/IMAGES/w2.jpg);
+                              background-repeat: no-repeat;
+                             background-size: cover;
+                             background-position: center;}.card .img-seven{
+                               background-image: url(/IMAGES/econ.jpg);
+                              background-repeat: no-repeat;
+                                background-size: cover;
+                             background-position: center;} 
+                             .card .img-one{
+                                background-image: url(/IMAGES/clu3.jpg);
+                                  background-repeat: no-repeat;
+                                 background-size: cover;
+                                 background-position: center;}.card .img-seven{
+                                   background-image: url(/IMAGES/econ.jpg);
+                                  background-repeat: no-repeat;
+                                    background-size: cover;
+                                 background-position: center;} 
+                                 .card .img-one{
+                                    background-image: url(/IMAGES/clu3.jpg);
+                                      background-repeat: no-repeat;
+                                     background-size: cover;
+                                     background-position: center;}.card .img-seven{
+                                       background-image: url(/IMAGES/econ.jpg);
+                                      background-repeat: no-repeat;
+                                        background-size: cover;
+                                     background-position: center;} 
+                                     .card .img-one{
+                                        background-image: url(/IMAGES/clu3.jpg);
+                                          background-repeat: no-repeat;
+                                         background-size: cover;
+                                         background-position: center;}.card .img-seven{
+                                           background-image: url(/IMAGES/econ.jpg);
+                                          background-repeat: no-repeat;
+                                            background-size: cover;
+                                         background-position: center;} 
+ .card .img-one{
+  background-image: url(/IMAGES/clu3.jpg);
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-position: center;}.card .img-seven{
+   background-image: url(/IMAGES/econ.jpg);
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-position: center;}              
+.contents{
+    text-align: center;
+    padding: 40px 15px;
+}
+.contents h2{
+ letter-spacing: 2px;
+ color: rgb(255, 255, 255);
+   
+}
+.contents p{
+    font-size: 16px;
+    color: #7a7a7a;
+    margin: 15px 0px;
+}
+.contents a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #fff;
+    letter-spacing: 2px;
+    display: inline-block;
+    background-color: #d6c954;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+
+}
+.contents a:hover{
+    background-color: #87803d;
+}
+/*** for contact page**/
+.containers{
+    width: 80%;
+    margin: 40px auto;
+   
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr) );
+    grid-gap:25px;
+  
+}
+.contact-box{
+    background: #fff;
+    display: flex;
+}
+.contact-left{
+    flex-basis: 60%;
+    padding: 20px 40px;
+}
+.contact-right{
+    flex-basis: 40%;
+    padding: 40px;
+    background: #1c00b5;
+}
+h1{
+    margin-bottom: 10px;
+    color: #fff;
+    padding: 10px 30px;
+}
+.containers p{
+    margin-bottom: 40px;
+    color: #fff;
+   
+}
+.input-row{
+    display: flex;
+    justify-content: space-between;
+     margin-bottom: 20px;
+}
+.input-row .input-group{
+    flex-basis: 45%;
+}
+input{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    outline: none;
+    padding-bottom: 5px;
+}
+textarea{
+    width: 100%;
+    border: 1px solid #ccc;
+    outline: none;
+    padding:10px;
+    box-sizing: border-box;
+}
+label{
+    margin-bottom: 6px;
+    display: block;
+    color: #1c00b5;
+}
+button{
+    background: #1c00b5;
+    width: 100px;
+    color: #fff;
+    border: none;
+    outline: none;
+    height: 35px;
+    border-radius: 30px;
+    margin-top: 20px;
+    box-shadow: 0px 5px 15px 0px rgb(28,0,181,0.3);
+}
+.contact-left h3{
+    color: #1c00b5;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.contact-right h3{
+    color: #ffffff;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+tr td:first-child{
+    padding-right: 20px;
+}
+tr td {
+    padding-top: 20px;
+    color: #fff;
+}
+/** this css is for About**/
+.about{
+    width: 100%;
+   padding: 78 0px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr) );
+    grid-gap:25px;
+    
+}
+.about img{
+    height: 300px;
+    width: 450x;
+    
+}
+.about-text {
+    width: 550px;
+   margin-top: 80px;
+}
+.main{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.about-text h1{
+    color: rgb(255, 255, 255);
+    font-size: 80px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+.about-text h5{
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    text-transform: capitalize;
+    margin-bottom: 25px;
+    letter-spacing: 2px;
+}
+span{
+    color: red;
+}
+.about-text p{
+    color: rgb(255, 255, 255);
+    letter-spacing: 1px;
+    line-height: 28px;
+    margin-bottom: 45px;
+}
+.let{
+    background: #f9004d;
+    text-decoration: none;
+    border: 2px solid ;
+    font-weight: bold;
+    
+    border-radius: 30px;
+}
+.let:hover{
+    background-color: rgb(223, 183, 183);
+}
+/***this for POLITICS page***/
+
+
+.outer{
+    padding: 2em;
+
+}
+.h1-this{
+    color: red;
+    margin-top: 8px;
+}
+p{
+    margin-top: 20px;
+}
+.one{
+    column-count: 1;
+    column-gap: 2em;
+}
+.img-link{
+    margin-top: 19px;
+}
+.img-som{
+    width: 80%;
+    margin: 1em 0 0;
+}
+audio{
+    margin-top: 10px;
+}
+@media  screen and (min-width: 760px) {
+
+    body{
+        text-align: left;
+        font-size: 18px;
+    }
+    p{
+        line-height: 1.6em;
+
+    }
+    .one{
+        column-count: 2;
+        column-rule-style: solid;
+        column-rule-color: rgb(43,43,43);
+    }
+    
+}
